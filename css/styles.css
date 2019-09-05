@@ -1,7 +1,9 @@
-
+html {
+    scroll-behavior: smooth;
+}
   
   
-  .skillbar {
+.skillbar {
     position:relative;
     display:block;
     margin-bottom:15px;
@@ -27,7 +29,7 @@
     position:absolute;
     top:0;
     left:0;
-width:110px;
+    width:110px;
     font-weight:bold;
     font-size:13px;
     color:#ffffff;
@@ -79,4 +81,5 @@ width:110px;
 }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.2); }
+    background-color: rgba(0, 0, 0, 0.2); 
+}
