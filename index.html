@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+    <title>NathanTout</title>
+
+<!-- STYLESHEETS -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" rel="stylesheet">
+
+
+    <link href="css/styles.css" rel="stylesheet">
+<!-- /STYLESHEETS -->
+
+</head>
+
+<body>
+
+
+<!--Navbar -->
+
+<nav class="mb-0 navbar fixed-top navbar-expand-lg scrolling-navbar navbar-dark">
+  <a class="navbar-brand" href="#">Nathan Tout</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+    aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#"> Projects</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"> About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"> Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://github.com/ntout" target="_blank">
+            <i class="fab fa-github"></i> GitHub</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/ntout/" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn</a>
+        </li>
+      
+    </ul>
+  </div>
+</nav>
+<!--/.Navbar -->
+
+
+<!-- Jumbotron -->
+<div class="jumbotron " style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
+    <div class="text-white text-center py-5 px-4">
+        <div>
+            <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Nathan Tout</strong></h2>
+            <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
+            optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui, dolorum!
+            </p>
+            <a class="btn btn-outline-white btn-md"><i class="fas fa-clone left"></i> View project</a>
+        </div>
+    </div>
+</div>
+<!-- Jumbotron -->
+
+
+<div class="container">
+
+<!-- About -->
+    <section class="mt-5 wow fadeIn">
+        <h1 class="h1-responsive mb-4">About me</h1> 
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 px-4">
+
+            <!--First row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fas fa-certificate fa-2x "></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Certified Instructors</h5>
+                <p class="grey-text">Our goal is to make you a safe, goal-oriented, knowledgeable rider.</p>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <div style="height:30px"></div>
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fas fa-book fa-2x blue-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Private and Group Lessons</h5>
+                <p class="grey-text">Focus on your specific goals in a private lesson 
+                  or enjoy having a good time with other people at your skill and age level. 
+                </p>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <div style="height:30px"></div>
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fas fa-horse-head fa-2x cyan-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Much More</h5>
+                <p class="grey-text">We offer fun classes throughout the year, such as a mommy and me class, trail riding and more.</p>
+              </div>
+            </div>
+            <!--/Third row-->
+
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12">
+            <div class="">
+              <img src="{% static 'img/bike.jpg' %}" class="img-fluid z-depth-1-half" alt="">      
+            </div>
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/Grid row-->
+    <!-- Skills -->
+    <section class="mt-5 wow fadeIn text-center">
+        <h2>Skills</h2>
+
+        <div class="skillbar clearfix " data-percent="47%">
+            <div class="skillbar-title" style="background: #d35400;"><span>Git</span></div>
+            <div class="skillbar-bar" style="background: #e67e22;"></div>
+            <div class="skill-bar-percent">47%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="20%">
+            <div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+            <div class="skillbar-bar" style="background: #3498db;"></div>
+            <div class="skill-bar-percent">20%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="40%">
+            <div class="skillbar-title" style="background: #2c3e50;"><span>C++</span></div>
+            <div class="skillbar-bar" style="background: #2c3e50;"></div>
+            <div class="skill-bar-percent">40%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="40%">
+            <div class="skillbar-title" style="background: #46465e;"><span>Django</span></div>
+            <div class="skillbar-bar" style="background: #5a68a5;"></div>
+            <div class="skill-bar-percent">40%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="35%">
+            <div class="skillbar-title" style="background: #f5cd49;"><span>JavaScript</span></div>
+            <div class="skillbar-bar" style="background: #f2bb05;"></div>
+            <div class="skill-bar-percent">35%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="45%">
+            <div class="skillbar-title" style="background: #1446a0;"><span>Python</span></div>
+            <div class="skillbar-bar" style="background: #113a83;"></div>
+            <div class="skill-bar-percent">45%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="70%">
+            <div class="skillbar-title" style="background: #27ae60;"><span>TableTennis</span></div>
+            <div class="skillbar-bar" style="background: #2ecc71;"></div>
+            <div class="skill-bar-percent">70%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="25%">
+            <div class="skillbar-title" style="background: #9c2523;"><span>HTML</span></div>
+            <div class="skillbar-bar" style="background: #d63230;"></div>
+            <div class="skill-bar-percent">25%</div>
+        </div> <!-- End Skill Bar -->
+
+        <p class="citations"><strong>SOURCE :</strong> http://w3lessons.info/2013/06/04/skill-bar-with-jquery-css3/</p>
+    </section>
+    <!-- Skills -->
+    </section>
+
+
+<!-- /About -->
+
+
+
+<hr class="my-5">
+
+<!-- Projects -->
+<section class="mb-4 wow fadeIn">
+
+    <h1 class="h1-responsive mb-4">Projects</h1>  
+    <!-- Card deck -->
+    <div class="card-deck">
+
+    <!-- Card -->
+    <div class="card mb-4 ">
+
+        <!--Card image-->
+        <div class="view overlay">
+        <img class="card-img-top" src="img/sudoku.png" alt="Card image cap">
+        <a href="#!">
+            <div class="mask rgba-white-slight"></div>
+        </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+
+        <!--Title-->
+        <h4 class="card-title">Sudoku Solver</h4>
+        <!--Text-->
+        <p class="card-text">Built Sudoku solver that could solve puzzle by typing in the numbers or uploading an image of one.</p>
+        <p class="card-text">Python, Django, OpenCV</p>
+        <a class="btn btn-light-blue btn-md" href="https://github.com/ntout/sudoku-solver" target="_blank">view code</a>
+
+        </div>
+
+    </div>
+    <!-- /Card -->
+
+    <!-- Card -->
+    <div class="card mb-4">
+
+        <!--Card image-->
+        <div class="view overlay">
+        <img class="card-img-top" src="img/mole.png" alt="Card image cap">
+        <a href="#!">
+            <div class="mask rgba-white-slight"></div>
+        </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+
+        <!--Title-->
+        <h4 class="card-title">Whack-a-Mole</h4>
+        <!--Text-->
+        <p class="card-text">To learn more about JavaScript query selecting, I made a simple Whack-a-Mole Game</p>
+        <p class="card-text">HTML, JavaScript</p>
+        <a class="btn btn-light-blue btn-md" href="https://github.com/ntout/Whack-A-Mole" target="_blank">view code</a>
+
+        </div>
+
+    </div>
+    <!-- /Card -->
+
+    <!-- Card -->
+    <div class="card mb-4">
+
+        <!--Card image-->
+        <div class="view overlay">
+        <img class="card-img-top" src="img/datastructures.png" alt="Card image cap">
+        <a href="#!">
+            <div class="mask rgba-white-slight"></div>
+        </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+
+        <!--Title-->
+        <h4 class="card-title">Data Structures</h4>
+        <!--Text-->
+        <p class="card-text">As part of the Oregon Tech curriculum, I built a library of data structures.</p>
+        <p class="card-text">C++</p>
+        <a class="btn btn-light-blue btn-md" href="https://github.com/ntout/cst211-data-structures" target="_blank">view code</a>
+
+        </div>
+
+    </div>
+    <!-- /Card -->
+
+
+
+    </div>
+    <!-- /Card deck -->
+</section>
+<!-- /Projects -->
+
+
+
+<hr class="my-5">
+
+<!-- Contact-->
+<section class="mb-4 wow fadeIn">
+
+    <!--Section heading-->
+    <h1 class="h1-responsive">Contact</h1>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col">
+            <form id="contact-form" name="contact-form" method="POST" action="https://formspree.io/nate.tout@gmail.com">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+                
+                <div class="text-center text-md-left">
+                    <button class="btn btn-light-blue btn-md" type="submit" >Send</button>
+                </div>
+            </form>
+
+
+            
+        </div>
+        <!--Grid column-->
+
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small teal pt-4 wow fadeIn">
+
+  <!-- Footer Text -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase font-weight-bold">The more you know</h5>
+        <p>There are only four words in the English language which end in “dous”: tremendous, horrendous, stupendous, and hazardous.
+         Rubber bands last longer when refrigerated.
+          New Jersey grows two-thirds of the world’s eggplant.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-md-0 mb-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase font-weight-bold">Riddles in The Footer</h5>
+        <p>Who makes it, has no need of it.
+        Who buys it, has no use for it. 
+        Who uses it can neither see nor feel it. 
+        What is it?
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Text -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="#"> nathantout.something</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+
+
+
+<!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/js/mdb.min.js"></script>
+
+    <script type="text/javascript" src="js/main.js'"></script>
+
+
+    <!-- Initializations -->
+    <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+    </script>
+<!-- /SCIPTS -->
+
+</body>
+</html>
